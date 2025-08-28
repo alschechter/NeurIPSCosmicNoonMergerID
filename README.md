@@ -4,9 +4,9 @@ using TNG50, CANDELS, and zoobot to create a model to identify galaxy mergers ne
 
 Steps:
 
-1. Code in TNGstuff written by Dr. Rebecca Nevin to walk galaxy merger trees and create merger catalogs and mass-matched nonmerger catalogs through time.
+1. Code in TNGstuff  to walk galaxy merger trees and create merger catalogs and mass-matched nonmerger catalogs through time.
 
-2. Mock Image Functions + MakeMocks creates the mock images from the radiatve transfer images (Radiative Transfer run by Dr. Xuejian (Jacob) Shen).
+2. Mock Image Functions + MakeMocks creates the mock images from the radiatve transfer images.
 
 3. Cutout Backgrounds and Add Backgrounds to create fully realistic mock images.
 
