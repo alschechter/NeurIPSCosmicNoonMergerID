@@ -1,7 +1,0 @@
-To make merger/nonmerger tables:
-
-1. run build_merger_catalog_TNG_SF.py  script to produce the all_mergers_at_whatever_bin files.
-
-2. Run join_mergers_all_TNG_SF.py . This produces all_merger_*.txt files at each snapshot.
-
-3. Run the matched_nonmerger code
