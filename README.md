@@ -24,22 +24,9 @@ or consult appropriate online documentation.
 
 The repository is organized into the following components:
 
-- **TNG50 Merger Catalog Creation**:  
-  `TNGstuff/build_merger_catalog_TNG_SF.py`
-  `matched_nonmergers_TNG.py`
- Walk galaxy merger trees and create merger catalogs and mass-matched nonmerger catalogs through time.
 
 
-- **Mock Observation Image Pipeline**:  
-  -`MockImageFunctions.py`
-  `MakeMocks.py`
-  Filter, rebin, convolve with PSF, and place mock image in realistic backgrounds.
-  -`CutoutBackgroundsLockMethod.py`
-  Cutout the realistic backgrounds from CANDELS mosaics, downloadable from Space Telescope Science Institute and MAST.
-  
 - **Convolutional Neural Network**:  
-  - `DivideIntoCNNSets.ipynb`  
-    Create 3 color images and divide into training, validation, and test sets.
   - `BinaryMergerDataset`  
     Custom dataloader.
   - `ResNet_Adam_Zoobot.py`  
@@ -51,7 +38,7 @@ The repository is organized into the following components:
   - `TestSetGradCAM.py`  
     Script for creating GradCAM images.
 
-
+- Further code to select galaxies, create mock images, and more in depth CNN analysis will be available soon, as part of the repository for our [ApJ paper](https://ui.adsabs.harvard.edu/abs/2025arXiv251012173S/abstract), an expanded version of this work.
 
 ### Code Authors
 
@@ -59,4 +46,5 @@ The repository is organized into the following components:
 
 ## Citation
 
-coming soon
+- [ADS](https://ui.adsabs.harvard.edu/abs/2025arXiv251115006S/abstract)
+- [arXiv](arXiv:2511.15006)
